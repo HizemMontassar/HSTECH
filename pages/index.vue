@@ -1,7 +1,10 @@
 <template>
   <div>
     <NuxtLayout name="custom">
-      <NuxtWelcome />
+      <div class="flex flex-col w-full h-screen">
+        <Cover />
+        <div></div>
+      </div>
     </NuxtLayout>
   </div>
 </template>
