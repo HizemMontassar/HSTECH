@@ -1,9 +1,6 @@
 <template>
   <div class="flex p-16">
     <div class="w-full">
-      <!-- <CoursesCourseCard />
-      <CoursesCourseCard />
-      <CoursesCourseCard /> -->
       <CoursesCourseCard
         v-for="cours in coursesList"
         :key="cours.id"
