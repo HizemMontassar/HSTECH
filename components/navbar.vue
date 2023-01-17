@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row justify-between items-center w-full h-10 bg-white">
+  <div class="flex flex-row justify-between items-center w-full h-10 bg-white shadow-md">
     <div class="mt-auto">
       <button>
         <svg
