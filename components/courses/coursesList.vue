@@ -20,5 +20,5 @@ interface Course {
   url: string;
 }
 
-let coursesList = ref(courses);
+let coursesList = ref<Course[]>(courses);
 </script>
