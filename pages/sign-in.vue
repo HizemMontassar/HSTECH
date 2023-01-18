@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen w-full flex flex-row">
-    <div class="w-2/5 p-24">
-      <div class="flex flex-col items-center h-full w-full flex-col">
+    <div class="p-24 sm:w-1/2">
+      <div class="flex flex-col items-center h-full w-full sm:w-auto flex-col">
         <img
           src="~/assets/study.png"
           alt=""
@@ -14,7 +14,7 @@
             <input
               type="text"
               placeholder="Please enter your email"
-              class="w-full border rounded py-2 px-3"
+              class="w-full border rounded py-2 text-center"
             />
           </div>
           <div class="flex flex-col my-4">
@@ -22,7 +22,7 @@
             <input
               type="password"
               placeholder="Please enter your password"
-              class="w-full border py-2 px-3"
+              class="w-full border rounded py-2 text-center"
             />
           </div>
           <div class="mt-8 text-center">
@@ -31,19 +31,19 @@
             >
               Sign In
             </button>
-            <div class="flex my-8 border rounded">
+            <div class="flex my-8 border rounded cursor-pointer">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
                 alt=""
                 class="ml-2"
               />
-              <p class="ml-2 font-bold text-white h-full bg-blue-500 p-2">Sign In With Google</p>
+              <p class="ml-2 font-bold text-white h-full bg-blue-500 hover:bg-blue-700 p-2">Sign In With Google</p>
             </div>
           </div>
         </form>
       </div>
     </div>
-    <div class="w-4/5">
+    <div class="hidden hidden sm:block sm:w-full">
       <img
         src="https://wallpapercave.com/wp/wp5315494.jpg"
         alt=""
